@@ -1,0 +1,89 @@
+.MyDiv{
+    position: relative;
+    margin: auto;
+    background-color: silver;
+    border: solid 2px black;
+    width: 1050px;
+    height: 500px;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.topleft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.topright{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.bottomright{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.lfc1, .lfc2, .lfc3, .lfc4,
+.rtc1, .rtc2, .rtc3, .rtc4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.lfc1{
+    right: 65%;
+    top: 20%;
+}
+
+.lfc2{
+    right: 60%;
+    top: 30%;
+    z-index: 1;
+}
+
+.lfc3{
+    right: 55%;
+    top: 40%;
+    z-index: 1;
+}
+.lfc4{
+    right: 51%;
+    top: 50%;
+    z-index: 2;
+}
+
+.rtc1{
+    left: 65%;
+    top: 20%;
+}
+.rtc2{
+    left: 60%;
+    top: 30%;
+    z-index: 1;
+}
+.rtc3{
+    left: 55%;
+    top: 40%;
+    z-index: 1;
+}
+.rtc4{
+    left: 51%;
+    top: 50%;
+    z-index: 2;
+}

@@ -1,0 +1,15 @@
+table{
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+}
+td{
+    border: solid 1px black;
+}
+
+#t01{
+    background-color:cyan;
+}
+#t02{
+    background-color: darkorange;
+}

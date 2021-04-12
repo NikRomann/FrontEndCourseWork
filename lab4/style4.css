@@ -1,0 +1,39 @@
+.header{
+    background-color: forestgreen;
+    padding: 30px;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.menu{
+    padding: 15px;
+    height: 20px;
+    width: 150px;
+    margin: 0;
+    margin-bottom: 7px;    
+}
+
+.menu div{
+    padding: 5px;
+    margin-bottom: 7px;
+    background-color:cornflowerblue;
+    color: white;
+}
+.menu div:hover{
+    background-color:#0099cc;
+}
+.article{
+    position: relative;
+    left: 25%;
+    width: 500px;
+    padding-bottom: 15px;
+}
+
+.footer{
+    background-color: forestgreen;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}

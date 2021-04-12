@@ -1,0 +1,36 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+.MyDiv{
+    border: solid 1px black;
+    width: 500px;
+    height: 350px;
+    background-color: burlywood;
+
+}
+.MyDiv1{
+    background-color: red;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.MyDiv2{
+    background-color: green;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+.MyDiv3{
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.MyDiv4{
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
