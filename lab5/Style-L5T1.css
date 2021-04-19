@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:whitesmoke;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:grey;
+    text-align: center;
+}
+
+
+.box input[type = "text"],
+.box input[type = "password"]{
+    border: 0;
+    background: silver ; 
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    
+}
+
+.box input[type = "submit"]{
+    border: none;
+    background:darkorange;
+    margin: 20px;
+    text-align: center;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color:white;
+    cursor: pointer;
+
+}
