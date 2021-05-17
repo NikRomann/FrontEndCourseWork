@@ -201,5 +201,34 @@ function f15(row, col){
     }
 }
 
-f15(5,5)
+f15(3,3)
+
+function f16(row, col){
+    for(var r=0;r<row;r++){
+        var x=document.getElementById('table16').insertRow(r)
+        for(var c=0; c<col; c++){
+            var y=x.insertCell(c)
+            y.innerHTML="Row-"+(r+1)+" Column-"+(c+1)
+        }
+    }
+}
+
+f16(5,5)
+
+
+function f17(row, col, w, h, bgclr, bsize){
+    for(var r=0;r<row;r++){
+        var x=document.getElementById('table17').insertRow(r)
+        for(var c=0; c<col; c++){
+            var y=x.insertCell(c)
+            y.innerHTML="Row-"+(r+1)+" Column-"+(c+1)
+        }
+    }
+
+    document.getElementById('table17').style.width = w
+    document.getElementById('table17').style.height = h
+    document.getElementById('table17').style.backgroundColor = bgclr
+    document.getElementById('table17').style.border = bsize
+}
+f17(5,5,"800px", "800px", "red", "5px")
 
