@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylebox.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="box" style="top: 0px; left:0px;"></div>
+    </div>
+
+    <div id="controller">
+        <button class="down" onclick="down()">down</button>
+        <button class="up" onclick="up()">up</button>
+        <button class="right" onclick="right()">right</button>
+        <button class="left" onclick="left()">left</button>
+        <br />
+        <button class="downleft" onclick="downleft()">down-left</button>
+        <button class="downright" onclick="downright()">down-right</button>
+        <br />
+        <button class="upleft" onclick="upleft()">up-left</button>
+        <button class="upright" onclick="upright()">up-right</button>
+        <br />
+        <!-- <button class="growright" onclick="growright()">grow-right</button> -->
+    </div>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="30" class="slider" id="myRange">
+
+    </div>
+    
+</body>
+<script src="boxmove.js"></script>
+</html>
